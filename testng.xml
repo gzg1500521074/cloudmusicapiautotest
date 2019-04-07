@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="cloudmusic">
+    <test verbose="2" preserve-order="true" name="/Users/mac/Documents/cloudmusicapiautotest/pom.xml">
+        <classes>
+            <class name="com.cloudmusic.testcase.TestLogin"></class>
+            <class name="com.cloudmusic.testcase.TestVideo"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.cloudmusic.common.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
